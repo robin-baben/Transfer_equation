@@ -26,11 +26,7 @@ $$f(x) = \begin{cases}
 
 Аппроксимируем дифференциальную задачу разностной схемой со следующим шаблоном:
 
-<div style="text-align: center;">
-
 ![](pattern.png)
-
-</div>
 
 Формулу разностной схемы получим с помощью метода обратных характеристик:
 
@@ -43,11 +39,7 @@ $$
 
 ### Диссипативная и дисперсионная поверхности
 
-<div style="text-align: center;">
-
 ![](surfaces.png)
-
-</div>
 
 
 ### Расчеты
@@ -56,26 +48,8 @@ $$
 
 Проведен [расчет](GIFs) переноса начальных профилей при разных числах Куранта $r = \dfrac{c\tau}{h}$, $\tau$ - шаг по времени.
 
-<div style="text-align: center;">
+#### Двойной гауссиан, $r=0.999$
+![](GIFs/Shema_0.999.gif)
 
-<figure>
-  <img
-  src=GIFs/Shema_0.999.gif
-  alt="Gauss">
-
-  <figcaption>Двойной гауссиан, r=0.999</figcaption>
-</figure>
-
-</div>
-
-<div style="text-align: center;">
-
-<figure>
-  <img
-  src=GIFs/Shema2_0.999.gif
-  alt="Gauss">
-  
-  <figcaption>Ступенька, r=0.999</figcaption>
-</figure>
-
-</div>
+#### Ступенька, $r=0.999$
+![](GIFs/Shema2_0.999.gif)
