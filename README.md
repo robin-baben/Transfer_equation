@@ -58,14 +58,22 @@ $$
 
 <div style="text-align: center;">
 
-![](GIFs/Shema_0.999.gif)
-двойной гауссиан, $r=0.999$
+<figure>
+  <img
+  src=GIFs/Shema_0.999.gif
+  alt="Gauss">
+  <figcaption>Двойной гауссиан, r=0.999</figcaption>
+</figure>
 
 </div>
 
 <div style="text-align: center;">
 
-![](GIFs/Shema2_0.999.gif)
-"ступенька", $r=0.999$
+<figure>
+  <img
+  src=GIFs/Shema2_0.999.gif
+  alt="Gauss">
+  <figcaption>Ступенька, r=0.999</figcaption>
+</figure>
 
 </div>
