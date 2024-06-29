@@ -5,11 +5,11 @@
 
 - Уравнение переноса
 
-$$\dfrac{\partial u}{\partial t} + c \dfrac{\partial u}{\partial x} = 0, \; c = 1; \; t \in [0, \infty); $$
+$$\dfrac{\partial u}{\partial t} + c \dfrac{\partial u}{\partial x} = 0, \\; c = 1; \\; t \in [0, \infty); $$
 
 - Начально-краевые условия
   
-$$u(x, 0) = f(x); \; u(0, t) = u(2\pi, t); \; x \in [0, 2\pi]$$
+$$u(x, 0) = f(x); \\; u(0, t) = u(2\pi, t); \\; x \in [0, 2\pi]$$
 
 В качестве гладкого начального условия возьмем "двойной гауссиан" с параметрами:
 
@@ -20,7 +20,7 @@ $$f(x)=exp[-(x-x_1)^2 / \Delta^2] + exp[-(x-x_2)^2 / \Delta^2]$$
 В качестве разрывного - "ступеньку":
 
 $$f(x) = \begin{cases}
-    1, если \; 0.1\pi \le x \le 0.3\pi \\
+    1, если \\; 0.1\pi \le x \le 0.3\pi \\
     0, иначе
 \end{cases}$$
 
